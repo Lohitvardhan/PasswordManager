@@ -1,7 +1,6 @@
 # Password Manager
 
-A secure, user-friendly password manager written in Python and MySQL. It employs PBKDF2 to generate a 256-bit key from the master password and the device secret, which is then used with AES-256 for encryption/decryption. Additionally, SHA-256 is utilized to hash the master password.
-The GUI was developed using Tkinter.
+A secure and user-friendly password manager built with Python and MySQL. It uses PBKDF2 to derive a 256-bit key from the master password and device secret, which is then employed with AES-256 for encryption and decryption. The master password is hashed using SHA-256, and the GUI is designed with Tkinter for an intuitive experience.
 
 ## Installation
 
@@ -43,8 +42,8 @@ GRANT ALL PRIVILEGES ON *.* TO 'user'@localhost IDENTIFIED BY 'password';
 **Clone this repository and change directory**
 
 ```
-git clone https://github.com/theshreyasm/passwordmanager.git
-cd passwordmanager
+git clone https://github.com/Lohitvardhan/PasswordManager.git
+cd PasswordManager
 ```
 
 **Create .env file**
@@ -55,7 +54,7 @@ MYSQL_USERNAME = user
 MYSQL_PASSWORD = password
 ```
 
-Replace user and password with the username ad password you gave to the MySQL User that you created above.
+Replace user and password with the username and password you gave to the MySQL User that you created above.
 
 ## Run 
 
