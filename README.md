@@ -65,7 +65,7 @@ python main.py
 
 ## Usage
 
-![config](https://github.com/theshreyasm/passwordmanager/assets/97665416/55ef9dca-bb0d-4b99-b0a9-a787faec6d9)
+![config](https://github.com/theshreyas/passwordmanager/assets/97665416/55ef9dca-bb0d-4b99-b0a9-a787faec6d95)
 
 
 ![auth](https://github.com/theshreyasm/passwordmanager/assets/97665416/7873c131-d557-4b4b-9a1e-a586100a8cac)
